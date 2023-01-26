@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<module xmlns="urn:jboss:module:1.1" name="com.microsoft">
+  <resources>
+    <resource-root path="mssql-jdbc-11.2.3.jre8.jar"/>
+  </resources>
+  <dependencies>
+    <module name="javaee.api"/>
+    <module name="sun.jdk"/>
+    <module name="ibm.jdk"/>
+    <module name="javax.api"/>
+    <module name="javax.transaction.api"/>
+    <module name="javax.xml.bind.api"/>
+  </dependencies>
+</module>

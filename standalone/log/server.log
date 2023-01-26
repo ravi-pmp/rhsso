@@ -1,0 +1,60 @@
+2023-01-26 00:06:31,416 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0272: Suspending server
+2023-01-26 00:06:31,423 INFO  [org.jboss.as.ejb3] (Thread-2) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-01-26 00:06:31,427 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2023-01-26 00:06:31,441 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Unbound data source [java:jboss/datasources/KeycloakDS]
+2023-01-26 00:06:31,458 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 73) Stopping cache manager null on rhsso3
+2023-01-26 00:06:31,458 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 77) Stopping cache manager null on rhsso3
+2023-01-26 00:06:31,458 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 76) Stopping cache manager null on rhsso3
+2023-01-26 00:06:31,455 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0008: Undertow HTTPS listener https suspending
+2023-01-26 00:06:31,454 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/MSSQLDS]
+2023-01-26 00:06:31,453 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2023-01-26 00:06:31,464 INFO  [org.infinispan.CLUSTER] (ServerService Thread Pool -- 76) ISPN000080: Disconnecting JGroups channel ejb
+2023-01-26 00:06:31,467 INFO  [org.infinispan.CLUSTER] (ServerService Thread Pool -- 77) ISPN000080: Disconnecting JGroups channel ejb
+2023-01-26 00:06:31,468 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 0.0.0.0:8443
+2023-01-26 00:06:31,469 INFO  [org.infinispan.CLUSTER] (ServerService Thread Pool -- 73) ISPN000080: Disconnecting JGroups channel ejb
+2023-01-26 00:06:31,473 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = sqlserver
+2023-01-26 00:06:31,481 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0022: Unregistered web context: '/auth' from server 'default-server'
+2023-01-26 00:06:31,507 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow AJP listener ajp suspending
+2023-01-26 00:06:31,507 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow AJP listener ajp stopped, was bound to 0.0.0.0:8009
+2023-01-26 00:06:31,507 INFO  [org.jboss.modcluster] (ServerService Thread Pool -- 29) MODCLUSTER000002: Initiating mod_cluster shutdown
+2023-01-26 00:06:31,510 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2023-01-26 00:06:31,513 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0019: Host default-host stopping
+2023-01-26 00:06:31,517 INFO  [org.infinispan.CLUSTER] (ServerService Thread Pool -- 29) [Context=actionTokens] ISPN100008: Updating cache members list [rhsso1], topology id 6
+2023-01-26 00:06:31,526 WARN  [org.infinispan.CLUSTER] (ServerService Thread Pool -- 76) [Context=offlineClientSessions] ISPN000312: Lost data because of graceful leaver rhsso3
+2023-01-26 00:06:31,527 INFO  [org.infinispan.CLUSTER] (ServerService Thread Pool -- 76) [Context=offlineClientSessions] ISPN100008: Updating cache members list [rhsso1], topology id 6
+2023-01-26 00:06:31,529 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2023-01-26 00:06:31,531 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment keycloak-server.war (runtime-name: keycloak-server.war) in 101ms
+2023-01-26 00:06:31,537 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 78) WFLYCLINF0003: Stopped keys cache from keycloak container
+2023-01-26 00:06:31,538 WARN  [org.infinispan.CLUSTER] (ServerService Thread Pool -- 79) [Context=sessions] ISPN000312: Lost data because of graceful leaver rhsso3
+2023-01-26 00:06:31,538 WARN  [org.infinispan.CLUSTER] (ServerService Thread Pool -- 74) [Context=authenticationSessions] ISPN000312: Lost data because of graceful leaver rhsso3
+2023-01-26 00:06:31,538 INFO  [org.infinispan.CLUSTER] (ServerService Thread Pool -- 79) [Context=sessions] ISPN100008: Updating cache members list [rhsso1], topology id 6
+2023-01-26 00:06:31,538 INFO  [org.infinispan.CLUSTER] (ServerService Thread Pool -- 74) [Context=authenticationSessions] ISPN100008: Updating cache members list [rhsso1], topology id 6
+2023-01-26 00:06:31,540 WARN  [org.infinispan.CLUSTER] (ServerService Thread Pool -- 83) [Context=offlineSessions] ISPN000312: Lost data because of graceful leaver rhsso3
+2023-01-26 00:06:31,540 INFO  [org.infinispan.CLUSTER] (ServerService Thread Pool -- 83) [Context=offlineSessions] ISPN100008: Updating cache members list [rhsso1], topology id 6
+2023-01-26 00:06:31,541 WARN  [org.infinispan.CLUSTER] (ServerService Thread Pool -- 82) [Context=clientSessions] ISPN000312: Lost data because of graceful leaver rhsso3
+2023-01-26 00:06:31,542 INFO  [org.infinispan.CLUSTER] (ServerService Thread Pool -- 82) [Context=clientSessions] ISPN100008: Updating cache members list [rhsso1], topology id 6
+2023-01-26 00:06:31,543 WARN  [org.infinispan.CLUSTER] (ServerService Thread Pool -- 81) [Context=loginFailures] ISPN000312: Lost data because of graceful leaver rhsso3
+2023-01-26 00:06:31,543 INFO  [org.infinispan.CLUSTER] (ServerService Thread Pool -- 81) [Context=loginFailures] ISPN100008: Updating cache members list [rhsso1], topology id 6
+2023-01-26 00:06:31,548 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 29) WFLYCLINF0003: Stopped actionTokens cache from keycloak container
+2023-01-26 00:06:31,548 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 73) WFLYCLINF0003: Stopped authorization cache from keycloak container
+2023-01-26 00:06:31,559 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 76) WFLYCLINF0003: Stopped offlineClientSessions cache from keycloak container
+2023-01-26 00:06:31,563 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 75) WFLYCLINF0003: Stopped users cache from keycloak container
+2023-01-26 00:06:31,563 INFO  [org.infinispan.CLUSTER] (ServerService Thread Pool -- 80) [Context=work] ISPN100008: Updating cache members list [rhsso1], topology id 6
+2023-01-26 00:06:31,565 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 79) WFLYCLINF0003: Stopped sessions cache from keycloak container
+2023-01-26 00:06:31,565 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 82) WFLYCLINF0003: Stopped clientSessions cache from keycloak container
+2023-01-26 00:06:31,570 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 74) WFLYCLINF0003: Stopped authenticationSessions cache from keycloak container
+2023-01-26 00:06:31,570 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 81) WFLYCLINF0003: Stopped loginFailures cache from keycloak container
+2023-01-26 00:06:31,570 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 83) WFLYCLINF0003: Stopped offlineSessions cache from keycloak container
+2023-01-26 00:06:31,574 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 80) WFLYCLINF0003: Stopped work cache from keycloak container
+2023-01-26 00:06:31,576 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 77) WFLYCLINF0003: Stopped realms cache from keycloak container
+2023-01-26 00:06:31,576 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 77) Stopping cache manager null on rhsso3
+2023-01-26 00:06:31,578 INFO  [org.infinispan.CLUSTER] (ServerService Thread Pool -- 77) [Context=org.infinispan.CONFIG] ISPN100008: Updating cache members list [rhsso1], topology id 6
+2023-01-26 00:06:31,586 INFO  [org.infinispan.CLUSTER] (ServerService Thread Pool -- 77) ISPN000080: Disconnecting JGroups channel ejb
+2023-01-26 00:06:31,608 INFO  [org.infinispan.CLUSTER] (ServerService Thread Pool -- 84) [Context=http-remoting-connector] ISPN100008: Updating cache members list [rhsso1], topology id 6
+2023-01-26 00:06:31,609 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0008: Undertow HTTP listener default suspending
+2023-01-26 00:06:31,610 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 0.0.0.0:8080
+2023-01-26 00:06:31,610 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0004: Undertow 2.2.16.Final-redhat-00001 stopping
+2023-01-26 00:06:31,616 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 84) WFLYCLINF0003: Stopped http-remoting-connector cache from ejb container
+2023-01-26 00:06:31,617 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 84) Stopping cache manager null on rhsso3
+2023-01-26 00:06:31,618 INFO  [org.infinispan.CLUSTER] (ServerService Thread Pool -- 84) ISPN000080: Disconnecting JGroups channel ejb
+2023-01-26 00:06:31,648 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: Red Hat Single Sign-On 7.6.0.GA (WildFly Core 15.0.8.Final-redhat-00001) stopped in 218ms
